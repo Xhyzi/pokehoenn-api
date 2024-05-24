@@ -8,5 +8,7 @@ namespace Pokehoenn.Api.Services
         public IMongoCollection<GrowthRate> GrowthRates { get; }
 
         public IMongoCollection<DexEntry> DexEntries { get; }
+
+        public IMongoCollection<Ability> Abilities { get; }
     }
 }
