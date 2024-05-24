@@ -20,7 +20,7 @@ namespace Pokehoenn.Api.Controllers
         }
 
         [HttpGet("{name}")]
-        public async Task<IActionResult> GetGrowthRate(string name)
+        public async Task<IActionResult> GetGrowthRateAsync(string name)
         {
             try
             {

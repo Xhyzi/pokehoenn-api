@@ -25,7 +25,7 @@ namespace Pokehoenn.Api.Controllers
         }
 
         [HttpGet("{species}", Name = "GetDexEntry")]
-        public async Task<IActionResult> GetDexEntryById(string species)
+        public async Task<IActionResult> GetDexEntryByIdAsync(string species)
         {
             try
             {
@@ -50,7 +50,7 @@ namespace Pokehoenn.Api.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateDexEntry([FromBody] DexEntryDto entryDto)
+        public async Task<IActionResult> CreateDexEntryAsync([FromBody] DexEntryDto entryDto)
         {
             try
             {
@@ -83,7 +83,7 @@ namespace Pokehoenn.Api.Controllers
         }
 
         [HttpPut("{nationalId:int}")]
-        public async Task<IActionResult> UpdateDexEntry(int nationalId, [FromBody] DexEntryDto entryDto)
+        public async Task<IActionResult> UpdateDexEntryAsync(int nationalId, [FromBody] DexEntryDto entryDto)
         {
             try
             {
@@ -125,7 +125,7 @@ namespace Pokehoenn.Api.Controllers
         }
 
         [HttpDelete("{species}")]
-        public async Task<IActionResult> DeleteDexEntry(string species)
+        public async Task<IActionResult> DeleteDexEntryAsync(string species)
         {
             FilterDefinition<DexEntry> filter;
 
