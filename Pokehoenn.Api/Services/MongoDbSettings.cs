@@ -7,5 +7,7 @@
         public string DbName { get; set; } = null!;
 
         public string GrowthRateCollectionName { get; set; } = null!;
+
+        public string DexEntryCollectionName { get; set; } = null!;
     }
 }

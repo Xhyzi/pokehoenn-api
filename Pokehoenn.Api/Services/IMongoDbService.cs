@@ -6,5 +6,7 @@ namespace Pokehoenn.Api.Services
     public interface IMongoDbService
     {
         public IMongoCollection<GrowthRate> GrowthRates { get; }
+
+        public IMongoCollection<DexEntry> DexEntries { get; }
     }
 }

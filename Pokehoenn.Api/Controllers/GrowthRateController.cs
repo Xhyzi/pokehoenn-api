@@ -19,7 +19,7 @@ namespace Pokehoenn.Api.Controllers
             return Ok(growthRates.Select(gr => gr.ToDto()).ToList());
         }
 
-        [HttpGet("name")]
+        [HttpGet("{name}")]
         public async Task<IActionResult> GetGrowthRate(string name)
         {
             try
