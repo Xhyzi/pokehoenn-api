@@ -11,5 +11,7 @@
         public string DexEntryCollectionName { get; set; } = null!;
 
         public string AbilitiesCollectionName {  get; set; } = null!;
+
+        public string ItemsCollectionName { get; set; } = null!;
     }
 }

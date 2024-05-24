@@ -10,5 +10,7 @@ namespace Pokehoenn.Api.Services
         public IMongoCollection<DexEntry> DexEntries { get; }
 
         public IMongoCollection<Ability> Abilities { get; }
+
+        public IMongoCollection<Item> Items { get; }
     }
 }
