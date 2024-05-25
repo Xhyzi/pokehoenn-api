@@ -12,5 +12,7 @@ namespace Pokehoenn.Api.Services
         public IMongoCollection<Ability> Abilities { get; }
 
         public IMongoCollection<Item> Items { get; }
+
+        public IMongoCollection<Move> Moves { get; }
     }
 }

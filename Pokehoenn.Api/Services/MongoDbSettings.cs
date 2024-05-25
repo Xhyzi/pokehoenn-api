@@ -13,5 +13,7 @@
         public string AbilitiesCollectionName {  get; set; } = null!;
 
         public string ItemsCollectionName { get; set; } = null!;
+
+        public string MovesCollectionName {  get; set; } = null!;
     }
 }
