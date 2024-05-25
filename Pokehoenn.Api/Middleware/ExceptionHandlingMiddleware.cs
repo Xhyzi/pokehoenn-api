@@ -41,7 +41,7 @@ namespace Pokehoenn.Api.Middleware
             context.Response.StatusCode = statusCode;
 
             var result = JsonSerializer.Serialize(new { error = message });
-            return context.Response.WriteAsJsonAsync(result);
+            return context.Response.WriteAsync(result);
         }
     }
 }
