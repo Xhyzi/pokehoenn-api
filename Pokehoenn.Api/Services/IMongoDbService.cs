@@ -14,5 +14,7 @@ namespace Pokehoenn.Api.Services
         public IMongoCollection<Item> Items { get; }
 
         public IMongoCollection<Move> Moves { get; }
+
+        public IMongoCollection<Specie> Species { get; }
     }
 }

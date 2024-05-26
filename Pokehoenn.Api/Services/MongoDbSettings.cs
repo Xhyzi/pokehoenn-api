@@ -15,5 +15,7 @@
         public string ItemsCollectionName { get; set; } = null!;
 
         public string MovesCollectionName {  get; set; } = null!;
+
+        public string SpecieCollectionName {  get; set; } = null!;
     }
 }
